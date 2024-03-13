@@ -46,4 +46,17 @@ daftar_menu = {
 MENU = list(daftar_menu.items())
 menu_list = Orders ()
 
+def tampilan_menu():
+    print("daftar menu")
+    for nama_menu, harga in daftar_menu.items():
+        print(f"{nama_menu} - {harga} Rupiah")
+
+def tampilan_pesanan():
+    print("pesanan anda : ")
+    menu_list.tampilkan_pesanan()
+    
+def menghitung_harga_akhir():
+    total = menu_list.total_harga()
+    print(f"Total biaya yang harus dibayarkan adalah {total} rupiah\nTerima kasih sudah berbelanja di Miexue")
+
 
