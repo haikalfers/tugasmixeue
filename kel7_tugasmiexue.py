@@ -4,3 +4,7 @@ class Node:
     self.menu = menu
     self.price = price
     self.next = None
+
+class Orders:
+    def __init__(self, data=None):
+        self.head = Node(data) if data else None
