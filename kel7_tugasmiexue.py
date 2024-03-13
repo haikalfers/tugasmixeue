@@ -35,3 +35,15 @@ class Orders:
             current = current.next
         return harga_akhir
 
+#ListMenu
+daftar_menu = {
+    "(1) Mixeue Ice Cream"  : 5000,
+    "(2) Boba Shake"        : 16000,
+    "(3) Mi Sundae"         : 14000,
+    "(4) Mi Ganas"          : 11000,
+    "(5) Creamy Mango Boba" : 22000
+}
+MENU = list(daftar_menu.items())
+menu_list = Orders ()
+
+
