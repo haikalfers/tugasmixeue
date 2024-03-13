@@ -1,6 +1,6 @@
 TUGAS STRUKTUR DATA
 Dosen Pengampu : I GDE AGUNG SRI SIDHIMANTRA 0026109501
-Mata kuliah : Algoritma Pemrograman
+Mata kuliah : Struktur Data
 Kelas : 2023E
 Prodi : Manajemen Informatika
 Kelompok : 7
