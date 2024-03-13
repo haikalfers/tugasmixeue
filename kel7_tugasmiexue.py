@@ -18,3 +18,12 @@ class Orders:
             while current.next:
                 current = current.next
             current.next = new_node
+
+     def tampilkan_pesanan(self):
+        current = self.head
+        count = 1
+        while current:
+            print (f"{count}. {current.menu}(pcs)- {current.price} rupiah")
+            current = current.next
+            count += 1
+
