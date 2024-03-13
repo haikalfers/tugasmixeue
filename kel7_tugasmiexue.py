@@ -27,3 +27,11 @@ class Orders:
             current = current.next
             count += 1
 
+      def total_harga(self):
+        harga_akhir = 0
+        current = self.head
+        while current:
+            harga_akhir += current.price
+            current = current.next
+        return harga_akhir
+
