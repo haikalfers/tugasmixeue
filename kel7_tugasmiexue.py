@@ -59,4 +59,15 @@ def menghitung_harga_akhir():
     total = menu_list.total_harga()
     print(f"Total biaya yang harus dibayarkan adalah {total} rupiah\nTerima kasih sudah berbelanja di Miexue")
 
+tampilan_menu()
+# Penggunaan program
+while True :
+    pilihan = input("silahkan piih menu yang anda inginkan... (ketikan 'done' jika sudah selesai memesan) : ")
+    if pilihan.lower() == 'done' :
+        break
+    
+    pilihan =int(pilihan) - 1
+    menu_list.tambah_pesanan(MENU[pilihan][0], MENU[pilihan][1])
+
+
 
