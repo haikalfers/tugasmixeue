@@ -69,5 +69,8 @@ while True :
     pilihan =int(pilihan) - 1
     menu_list.tambah_pesanan(MENU[pilihan][0], MENU[pilihan][1])
 
+tampilan_pesanan()
+menghitung_harga_akhir()
+
 
 
